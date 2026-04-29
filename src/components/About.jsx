@@ -1,11 +1,11 @@
-function About() {
+function About() { 
   return (
     <section id="about" className="py-24 px-6 bg-white dark:bg-slate-900 rounded-3xl mx-4 sm:mx-8 shadow-sm transition-colors duration-300">
       <h2 className="text-4xl font-extrabold text-center mb-16 text-slate-900 dark:text-white">About Me</h2>
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-        {/* 🖼 Left Side Image */}
+        {/* 🖼 Image */}
         <div className="flex justify-center">
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
